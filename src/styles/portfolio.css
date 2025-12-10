@@ -17,6 +17,20 @@
   --color-picto-primary-dark: #650fa0;
   --color-soft-white: #f0f1f3;
   --color-soft-dark: #87909d;
+  --spacing-12_5: 3.125rem;
+  --spacing-15: 3.75rem;
+  --spacing-17_5: 4.375rem;
+  --spacing-20: 5rem;
+  --spacing-25: 6.25rem;
+  --spacing-30: 7.5rem;
+  --spacing-31_5: 7.875rem;
+  --size-66: 16.5rem;
+  --size-106: 26.5rem;
+  --size-117: 29.25rem;
+  --size-126: 31.5rem;
+  --size-134: 33.5rem;
+  --size-135: 33.75rem;
+  --size-144_25: 36.0625rem;
 }
 
 .btn-primary {

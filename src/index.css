@@ -1,5 +1,6 @@
 @import "tailwindcss";
+@import "./styles/portfolio.css";
 @plugin "daisyui" {
   themes: light --default, dark --prefersdark, cupcake;
 }
-@import "./styles/portfolio.css";
+@plugin "@tailwindcss/forms";

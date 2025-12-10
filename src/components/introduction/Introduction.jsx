@@ -70,7 +70,7 @@ const Introduction = () => {
           className={`shadow-2xl shadow-gray-200 w-full h-full absolute inset-0 object-contain object-top bg-white rounded-3xl`}
           src={person}
           alt="person"
-          fetchpriority="high"
+          fetchPriority="high"
         />
       </motion.div>
     </motion.div>
