@@ -1,27 +1,8 @@
 import person from "../../assets/profile.png";
 import "./introduction.css";
-import InformationSummary from "./InformationSummary";
 import { motion } from "framer-motion";
 import { fadeInUp, staggerContainer, viewportConfig } from "../../utils/animations";
 
-// Information summary data
-const informationSummaryData = [
-  {
-    id: 1,
-    title: "Experience",
-    description: "15 Y.",
-  },
-  {
-    id: 2,
-    title: "Projects Completed",
-    description: "250+",
-  },
-  {
-    id: 3,
-    title: "Happy Clients",
-    description: "58",
-  },
-];
 
 const Introduction = () => {
   return (
@@ -54,13 +35,7 @@ const Introduction = () => {
             </a>
           </p>
         </motion.div>
-        <div className="mx-auto lg:mx-0 relative">
-          <motion.div variants={fadeInUp} className="grid max-xxs:grid-flow-col grid-cols-3 w-fit mt-10 gap-1">
-            {informationSummaryData.map((item) => (
-              <InformationSummary key={item.id} item={item} />
-            ))}
-          </motion.div>
-        </div>
+        
       </div>
       <motion.div
         variants={fadeInUp}
