@@ -7,6 +7,9 @@ import "./blog.css";
 import { motion } from "framer-motion";
 import { fadeInUp, staggerContainer, viewportConfig } from "../../utils/animations";
 import { useState } from "react";
+import cyberThreatMgmt from "../../assets/certificates/cyber-threat-management.png";
+import introCybersecurity from "../../assets/certificates/introduction-to-cybersecurity.png";
+import networkDefense from "../../assets/certificates/network-defense.png";
 
 // Breakpoints for swiperJS
 const custom_breakpoints = {
@@ -84,21 +87,21 @@ const blogData = [
   },
   {
     id: 9,
-    image: `${BASE}images/cyber-threat-management.png`,
+    image: cyberThreatMgmt,
     title: "Cyber Threat Management",
     description: "Cisco Networking Academy certificate covering threat detection, response strategies, and risk mitigation across networked systems.",
     dateTime: "08 Feb, 2025 01:30 PM",
   },
   {
     id: 10,
-    image: `${BASE}images/introduction-to-cybersecurity.png`,
+    image: introCybersecurity,
     title: "Introduction to Cybersecurity",
     description: "Cisco Networking Academy certificate on core security principles, common attack types, and foundational best practices for protecting users and data.",
     dateTime: "18 Jan, 2025 10:00 AM",
   },
   {
     id: 11,
-    image: `${BASE}images/network-defense.png`,
+    image: networkDefense,
     title: "Network Defense",
     description: "Cisco Networking Academy certificate focused on securing network infrastructures, hardening services, monitoring, and incident response techniques.",
     dateTime: "04 Mar, 2025 11:45 AM",
