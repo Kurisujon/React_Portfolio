@@ -10,6 +10,33 @@ import { fadeInUp, staggerContainer, viewportConfig } from "../../utils/animatio
 
 const projectData = [
   {
+    id: 4,
+    image: card4,
+    category: "UI-UX DESIGN",
+    title: "Dazzify Social Media Platform",
+    description:
+      "Dazzify Web UI: A sleek, immersive social dashboard featuring neon accents, modular card layouts, and a cohesive design system that creates a vibrant user experience.",
+    link: "https://www.figma.com/design/ZGMRTVR3XaSxl88SezV7qf/Dazzify-Web-UI?t=hIVBLYmPLbMu86F4-1",
+  },
+  {
+    id: 6,
+    image: card6,
+    category: "UI-UX DESIGN & DEVELOPED USING ANDROID STUDIO",
+    title: "Eathink About It",
+    description:
+      "Eathink Mobile UI: An intuitive restaurant locator with map-based navigation, user reviews, ratings, and comment features, creating a social dining experience where discovering and sharing great food is effortless.",
+    link: "https://www.figma.com/design/rDmr6cI9EL6cWbjIlPeqU3/Eathink-Mobile-App-UI?t=hIVBLYmPLbMu86F4-1",
+  },
+  {
+    id: 5,
+    image: card5,
+    category: "UI-UX DESIGN",
+    title: "LoveBeep Dating App",
+    description:
+      "LoveBeep Mobile UI: A clean, modern matchmaking dashboard with real-time proximity alerts, AI-powered profiles, and gamified interactions for intuitive, exciting connections.",
+    link: "https://www.figma.com/design/07ESNQ8ryyZtXBeDwKIoIT/Love-Beep?t=hIVBLYmPLbMu86F4-1",
+  },
+  {
     id: 1,
     image: card1,
     category: "Responsive Web Landing Page",
@@ -36,33 +63,7 @@ const projectData = [
       "Developed a modern admin panel with a focus on usability and seamless navigation for end users and so on.",
     link: "#!",
   },
-  {
-    id: 4,
-    image: card4,
-    category: "UI-UX DESIGN",
-    title: "Dazzify Social Media Platform",
-    description:
-      "Dazzify Web UI: A sleek, immersive social dashboard featuring neon accents, modular card layouts, and a cohesive design system that creates a vibrant user experience.",
-    link: "https://www.figma.com/design/ZGMRTVR3XaSxl88SezV7qf/Dazzify-Web-UI?t=hIVBLYmPLbMu86F4-1",
-  },
-  {
-    id: 5,
-    image: card5,
-    category: "UI-UX DESIGN",
-    title: "LoveBeep Dating App",
-    description:
-      "LoveBeep Mobile UI: A clean, modern matchmaking dashboard with real-time proximity alerts, AI-powered profiles, and gamified interactions for intuitive, exciting connections.",
-    link: "https://www.figma.com/design/07ESNQ8ryyZtXBeDwKIoIT/Love-Beep?t=hIVBLYmPLbMu86F4-1",
-  },
-  {
-    id: 6,
-    image: card6,
-    category: "UI-UX DESIGN & DEVELOPED USING ANDROID STUDIO",
-    title: "Eathink About It",
-    description:
-      "Eathink Mobile UI: An intuitive restaurant locator with map-based navigation, user reviews, ratings, and comment features, creating a social dining experience where discovering and sharing great food is effortless.",
-    link: "https://www.figma.com/design/rDmr6cI9EL6cWbjIlPeqU3/Eathink-Mobile-App-UI?t=hIVBLYmPLbMu86F4-1",
-  },
+  
 ];
 
 const Portfolio = () => {

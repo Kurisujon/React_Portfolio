@@ -13,17 +13,17 @@ const addressData = [
   {
     icon: faLocationDot,
     title: "Address",
-    description: "New Mexico, 31134",
+    description: "Emily Homes Subdivision, Barangay Tres de Mayo, Digos City, Davao del Sur.",
   },
   {
     icon: faEnvelope,
     title: "My Email",
-    description: "mymail@mail.com",
+    description: "johncrislabiaga@gmail.com",
   },
   {
     icon: faPhone,
     title: "Call Me Now",
-    description: "00-123 00000",
+    description: "+63 970-245-4456",
   },
 ];
 
@@ -45,8 +45,7 @@ const Contact = () => {
                 Let’s discuss your Project
               </p>
               <p className="text-[12px] xs:text-[14px] sm:text-lg md:text-lg max-lg:text-center pt-4 font-normal text-soft-dark">
-                I'm available for freelance work. Drop me a line if you have a
-                project you think I'd be a good fit for.
+                Now accepting freelance projects. Contact me if you’ve got something in mind that aligns with my skills.
               </p>
             </div>
             <div className="my-8.75 sm:max-lg:flex justify-between items-center">
