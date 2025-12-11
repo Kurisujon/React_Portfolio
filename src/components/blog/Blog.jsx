@@ -10,6 +10,9 @@ import { useState } from "react";
 import cyberThreatMgmt from "../../assets/certificates/cyber-threat-management.png";
 import introCybersecurity from "../../assets/certificates/introduction-to-cybersecurity.png";
 import networkDefense from "../../assets/certificates/network-defense.png";
+import certA from "../../assets/certificates/_certificate_johncrislabiaga-gmail-com_04e59dbc-f480-4807-9767-1827dde1e221_page-0001.jpg";
+import certB from "../../assets/certificates/_certificate_johncrislabiaga-gmail-com_0534ec0a-78b1-435e-a154-64a6441ad239_page-0001.jpg";
+import certC from "../../assets/certificates/_certificate_johncrislabiaga-gmail-com_2686ca28-bba2-487e-9edf-0ee25a06801d_page-0001.jpg";
 
 // Breakpoints for swiperJS
 const custom_breakpoints = {
@@ -66,21 +69,21 @@ const blogData = [
   },
   {
     id: 6,
-    image: `${BASE}images/_certificate_johncrislabiaga-gmail-com_04e59dbc-f480-4807-9767-1827dde1e221_page-0001.jpg`,
+    image: certA,
     title: "Online Course Certificate A",
     description: "General online course certificate.",
     dateTime: "17 June, 2025 10:00 AM",
   },
   {
     id: 7,
-    image: `${BASE}images/_certificate_johncrislabiaga-gmail-com_0534ec0a-78b1-435e-a154-64a6441ad239_page-0001.jpg`,
+    image: certB,
     title: "Online Course Certificate B",
     description: "General online course certificate.",
     dateTime: "24 June, 2025 09:45 AM",
   },
   {
     id: 8,
-    image: `${BASE}images/_certificate_johncrislabiaga-gmail-com_2686ca28-bba2-487e-9edf-0ee25a06801d_page-0001.jpg`,
+    image: certC,
     title: "Online Course Certificate C",
     description: "General online course certificate.",
     dateTime: "03 July, 2025 03:15 PM",
