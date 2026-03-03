@@ -40,13 +40,13 @@ const Profile = () => {
           <h2
             className={`text-2xl xxs:text-3xl sm:text-4xl lg:text-[38px] text-[min(24px,38px)] max-md:text-center font-semibold mb-8`}
           >
-            BSIT Student & Aspiring Front-End UI/UX Developer
+            BSIT Student & Aspiring Web Developer
           </h2>
           <div
             className={`text-xs xs:text-[16px] lg:text-lg font-normal max-md:text-center text-gray-600`}
           >
             <p className={``}>
-             I specialize in building responsive, user-friendly web interfaces with an emphasis on thoughtful design, smooth interaction, and front-end functionality. I continuously refine my UI/UX skills to create better experiences and elevate overall product flow.
+            I build responsive, user-focused web applications, balancing clean front-end interfaces with structured back-end functionality. I pay attention to usability, performance, and overall flow to ensure both the user experience and system logic work seamlessly together.
             </p>
           </div>
           <div className="mt-8 flex max-md:justify-center">

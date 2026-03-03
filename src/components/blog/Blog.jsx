@@ -10,9 +10,9 @@ import { useState } from "react";
 import cyberThreatMgmt from "../../assets/certificates/cyber-threat-management.png";
 import introCybersecurity from "../../assets/certificates/introduction-to-cybersecurity.png";
 import networkDefense from "../../assets/certificates/network-defense.png";
-import certA from "../../assets/certificates/_certificate_johncrislabiaga-gmail-com_04e59dbc-f480-4807-9767-1827dde1e221_page-0001.jpg";
-import certB from "../../assets/certificates/_certificate_johncrislabiaga-gmail-com_0534ec0a-78b1-435e-a154-64a6441ad239_page-0001.jpg";
-import certC from "../../assets/certificates/_certificate_johncrislabiaga-gmail-com_2686ca28-bba2-487e-9edf-0ee25a06801d_page-0001.jpg";
+import certA from "../../assets/certificates/certificate_johncrislabiaga-gmail-com_04e59dbc-f480-4807-9767-1827dde1e221_page-0001.jpg";
+import certB from "../../assets/certificates/certificate_johncrislabiaga-gmail-com_0534ec0a-78b1-435e-a154-64a6441ad239_page-0001.jpg";
+import certC from "../../assets/certificates/certificate_johncrislabiaga-gmail-com_2686ca28-bba2-487e-9edf-0ee25a06801d_page-0001.jpg";
 
 // Breakpoints for swiperJS
 const custom_breakpoints = {
@@ -34,94 +34,122 @@ const BASE = import.meta.env.BASE_URL || '/';
 const blogData = [
   {
     id: 1,
-    image: `${BASE}images/Certificate_of_Completion_Installing_and _Configuring_Computer_Systems_page-0001.jpg`,
-    title: "Installing and Configuring Computer Systems",
-    description: "Completion certificate for installing and configuring computer systems.",
-    dateTime: "15 Sept, 2025 09:15 AM",
+    image: `${BASE}images/HTML_&_CSS_Certiport.jpg`,
+    title: "HTML & CSS Certiport Certification",
+    description: "Certiport certification demonstrating proficiency in HTML and CSS web development fundamentals.",
+    dateTime: "28 Feb, 2026",
   },
   {
     id: 2,
-    image: `${BASE}images/Certificate_of_Completion_Introduction_to_CSS_page-0001.jpg`,
-    title: "Introduction to CSS",
-    description: "Introductory CSS course certificate.",
-    dateTime: "15 Sept, 2025 02:30 PM",
+    image: `${BASE}images/HTML_Essentials_Cisco_Certificate.jpg`,
+    title: "HTML Essentials - Cisco",
+    description: "Cisco certification covering essential HTML concepts and best practices for web development.",
+    dateTime: "02 Mar, 2026",
   },
   {
     id: 3,
-    image: `${BASE}images/Certificate_of_Completion_Maintaining_Computer_System_and_Networks_page-0001.jpg`,
-    title: "Maintaining Computer Systems and Networks",
-    description: "Certificate in maintaining computer systems and networks.",
-    dateTime: "15 Sept, 2025 11:00 AM",
+    image: `${BASE}images/CSS_Essentials_Certificate.jpg`,
+    title: "CSS Essentials",
+    description: "Certificate demonstrating proficiency in CSS fundamentals and styling techniques.",
+    dateTime: "03 Mar, 2026",
   },
   {
     id: 4,
-    image: `${BASE}images/Certificate_of_Completion_Setting_UP_Computer_Servers_page-0001.jpg`,
-    title: "Setting Up Computer Servers",
-    description: "Server setup completion certificate.",
-    dateTime: "15 Sept, 2025 04:20 PM",
+    image: `${BASE}images/Navigating_DICT_Certificate.jpg`,
+    title: "Navigating DICT",
+    description: "Certificate from the Department of Information and Communications Technology covering digital literacy and technology navigation.",
+    dateTime: "30 Oct, 2022",
   },
   {
-    id: 5,
-    image: `${BASE}images/Certificate_of_Completion_Setting_Up_Computer_Networks_page-0001.jpg`,
-    title: "Setting Up Computer Networks",
-    description: "Network setup completion certificate.",
-    dateTime: "15 Sept, 2025 01:00 PM",
-  },
-  {
-    id: 6,
-    image: certA,
-    title: "Online Course Certificate A",
-    description: "General online course certificate.",
-    dateTime: "17 June, 2025 10:00 AM",
-  },
-  {
-    id: 7,
-    image: certB,
-    title: "Online Course Certificate B",
-    description: "General online course certificate.",
-    dateTime: "24 June, 2025 09:45 AM",
-  },
-  {
-    id: 8,
-    image: certC,
-    title: "Online Course Certificate C",
-    description: "General online course certificate.",
-    dateTime: "03 July, 2025 03:15 PM",
-  },
-  {
-    id: 9,
-    image: cyberThreatMgmt,
-    title: "Cyber Threat Management",
-    description: "Cisco Networking Academy certificate covering threat detection, response strategies, and risk mitigation across networked systems.",
-    dateTime: "08 Feb, 2025 01:30 PM",
-  },
-  {
-    id: 10,
-    image: introCybersecurity,
-    title: "Introduction to Cybersecurity",
-    description: "Cisco Networking Academy certificate on core security principles, common attack types, and foundational best practices for protecting users and data.",
-    dateTime: "18 Jan, 2025 10:00 AM",
-  },
-  {
-    id: 11,
-    image: networkDefense,
-    title: "Network Defense",
-    description: "Cisco Networking Academy certificate focused on securing network infrastructures, hardening services, monitoring, and incident response techniques.",
-    dateTime: "04 Mar, 2025 11:45 AM",
-  },
-  {
-    id: 12,
+    id: 4,
     image: `${BASE}images/microsoft.jpg`,
     title: "Microsoft Certification",
     description: "Microsoft certification achievement.",
     dateTime: "14 Oct, 2022 02:00 PM",
   },
   {
-    id: 13,
+    id: 5,
     image: `${BASE}images/designing.jpg`,
     title: "Designing Certificate",
     description: "Certificate in design fundamentals.",
     dateTime: "14 Oct, 2022 05:00 PM",
+  },
+  {
+    id: 6,
+    image: `${BASE}images/Certificate_of_Completion_Introduction_to_CSS_page-0001.jpg`,
+    title: "Introduction to CSS",
+    description: "Introductory CSS course certificate.",
+    dateTime: "15 Sept, 2025 02:30 PM",
+  },
+  {
+    id: 7,
+    image: `${BASE}images/Certificate_of_Completion_Installing_and _Configuring_Computer_Systems_page-0001.jpg`,
+    title: "Installing and Configuring Computer Systems",
+    description: "Completion certificate for installing and configuring computer systems.",
+    dateTime: "15 Sept, 2025 09:15 AM",
+  },
+  {
+    id: 8,
+    image: `${BASE}images/Certificate_of_Completion_Maintaining_Computer_System_and_Networks_page-0001.jpg`,
+    title: "Maintaining Computer Systems and Networks",
+    description: "Certificate in maintaining computer systems and networks.",
+    dateTime: "15 Sept, 2025 11:00 AM",
+  },
+  {
+    id: 9,
+    image: `${BASE}images/Certificate_of_Completion_Setting_UP_Computer_Servers_page-0001.jpg`,
+    title: "Setting Up Computer Servers",
+    description: "Server setup completion certificate.",
+    dateTime: "15 Sept, 2025 04:20 PM",
+  },
+  {
+    id: 10,
+    image: `${BASE}images/Certificate_of_Completion_Setting_Up_Computer_Networks_page-0001.jpg`,
+    title: "Setting Up Computer Networks",
+    description: "Network setup completion certificate.",
+    dateTime: "15 Sept, 2025 01:00 PM",
+  },
+  {
+    id: 11,
+    image: certA,
+    title: "Online Course Certificate A",
+    description: "General online course certificate.",
+    dateTime: "17 June, 2025 10:00 AM",
+  },
+  {
+    id: 12,
+    image: certB,
+    title: "Online Course Certificate B",
+    description: "General online course certificate.",
+    dateTime: "24 June, 2025 09:45 AM",
+  },
+  {
+    id: 13,
+    image: certC,
+    title: "Online Course Certificate C",
+    description: "General online course certificate.",
+    dateTime: "03 July, 2025 03:15 PM",
+  },
+  {
+    id: 14,
+    image: cyberThreatMgmt,
+    title: "Cyber Threat Management",
+    description: "Cisco Networking Academy certificate covering threat detection, response strategies, and risk mitigation across networked systems.",
+    dateTime: "08 Feb, 2025 01:30 PM",
+  },
+  {
+    id: 15,
+    image: introCybersecurity,
+    title: "Introduction to Cybersecurity",
+    description: "Cisco Networking Academy certificate on core security principles, common attack types, and foundational best practices for protecting users and data.",
+    dateTime: "18 Jan, 2025 10:00 AM",
+  },
+  {
+    id: 16,
+    image: networkDefense,
+    title: "Network Defense",
+    description: "Cisco Networking Academy certificate focused on securing network infrastructures, hardening services, monitoring, and incident response techniques.",
+    dateTime: "04 Mar, 2025 11:45 AM",
   },
 ];
 

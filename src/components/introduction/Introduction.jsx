@@ -23,8 +23,8 @@ const Introduction = () => {
             </span>
           </p>
           <p className="text-xs xxs:text-lg lg:text-[18px] my-6">
-            Aspiring<span className="bg-highlight"> Front-End Developer</span>{" "}
-            & <span className="bg-highlight"> UI/UX Enthusiast</span>— driven to create engaging digital experiences through thoughtful interface design and clean, intuitive code.
+            Aspiring<span className="bg-highlight"> Web Developer</span>{" "}
+            — passionate about developing dynamic, scalable web solutions by combining structured back-end logic with intuitive front-end experiences.
           </p>
           <p className="text-center lg:text-start">
             <a

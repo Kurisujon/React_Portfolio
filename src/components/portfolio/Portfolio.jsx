@@ -48,8 +48,8 @@ const projectData = [
   {
     id: 2,
     image: card2,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
+    category: "Offline-Online Synchronization",
+    title: "CHoDaMS Mobile App",
     description:
       "Designed an intuitive dashboard for product management, emphasizing clarity and user efficiency.",
     link: "#!",
@@ -57,11 +57,11 @@ const projectData = [
   {
     id: 3,
     image: card3,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
+    category: "Responsive Web Landing Page",
+    title: "Aquadiction POS",
     description:
       "Developed a modern admin panel with a focus on usability and seamless navigation for end users and so on.",
-    link: "#!",
+    link: "https://kurisujon.github.io/POS_Landing_Page/",
   },
   
 ];

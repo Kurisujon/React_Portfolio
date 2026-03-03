@@ -1,8 +1,8 @@
 import WorkSteps from "./WorkSteps";
 import { motion } from "framer-motion";
 import { fadeInUp, staggerContainer, viewportConfig } from "../../utils/animations";
-import { faPenNib, faDiagramProject, faCode, faWind } from "@fortawesome/free-solid-svg-icons";
-import { faJs, faReact } from "@fortawesome/free-brands-svg-icons";
+import { faPenNib, faCode, faWind } from "@fortawesome/free-solid-svg-icons";
+import { faJs, faReact, faLaravel } from "@fortawesome/free-brands-svg-icons";
 
 const workStepData = [
   {
@@ -13,9 +13,9 @@ const workStepData = [
   },
   {
     id: 2,
-    title: "Prototyping & Wireframing",
-    description: "Using tools to visualize and plan application workflows.",
-    icon: faDiagramProject,
+    title: "Laravel",
+    description: "Building robust and scalable web applications with PHP framework.",
+    icon: faLaravel,
   },
   {
     id: 3,
