@@ -1,7 +1,7 @@
 import Projects from "./Projects";
 import card1 from "../../assets/images/portfolio-images/chodams.png";
 import card2 from "../../assets/images/portfolio-images/card-2.png";
-import card3 from "../../assets/images/portfolio-images/card-3.png";
+import Aquadiction from "../../assets/images/portfolio-images/Aquadiction.png";
 import card4 from "../../assets/images/portfolio-images/dazzify.png";
 import card5 from "../../assets/images/portfolio-images/lovebeep.png";
 import card6 from "../../assets/images/portfolio-images/eathink.png";
@@ -56,7 +56,7 @@ const projectData = [
   },
   {
     id: 3,
-    image: card3,
+    image: Aquadiction,
     category: "Responsive Web Landing Page",
     title: "Aquadiction POS",
     description:
